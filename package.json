@@ -1,14 +1,17 @@
 {
   "name": "open-cli",
-  "version": "1.0.0",
   "description": "A CLI wrapper for \"open\".",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "bin": {
+    "open-cli": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eliias/open-cli.git"
+    "url": "https://github.com/eliias/open-cli.git"
   },
   "keywords": [
     "open",
@@ -19,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/eliias/open-cli/issues"
   },
-  "homepage": "https://github.com/eliias/open-cli#readme"
+  "homepage": "https://github.com/eliias/open-cli#readme",
+  "dependencies": {
+    "commander": "^2.8.1",
+    "open": "0.0.5"
+  },
+  "devDependencies": {
+    "semantic-release": "^4.3.5"
+  }
 }
