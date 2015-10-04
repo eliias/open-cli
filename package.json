@@ -1,0 +1,23 @@
+{
+  "name": "open-cli",
+  "version": "1.0.0",
+  "description": "A CLI wrapper for \"open\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliias/open-cli.git"
+  },
+  "keywords": [
+    "open",
+    "CLI"
+  ],
+  "author": "Hannes Moser <hannes@impossiblearts.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eliias/open-cli/issues"
+  },
+  "homepage": "https://github.com/eliias/open-cli#readme"
+}
