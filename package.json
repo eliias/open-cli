@@ -7,7 +7,7 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "bin": {
-    "open": "index.js"
+    "open-cli": "index.js"
   },
   "repository": {
     "type": "git",
