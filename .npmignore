@@ -1,0 +1,7 @@
+# dotiles
+.editorconfig
+.gitattributes
+.gitignore
+.npmignore
+.nvmrc
+.travis.yml
