@@ -3,7 +3,7 @@
   "description": "A CLI wrapper for \"open\".",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "true",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "bin": {
