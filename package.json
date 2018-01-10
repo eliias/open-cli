@@ -31,6 +31,6 @@
     "open": "0.0.5"
   },
   "devDependencies": {
-    "semantic-release": "^8.2.0"
+    "semantic-release": "^11.0.2"
   }
 }
